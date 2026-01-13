@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Email to Sales Team</title>
+    <title>Internal Sales Notification</title>
   </head>
   <body style="margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; color: #222; background-color: #fff; line-height: 1.5; width: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;">
 
@@ -19,24 +19,22 @@
                 </a>
               </td>
             </tr>
-            <tr style="padding-top: 8px; padding-bottom: 8px; padding-left: 0; padding-right: 0;">
-                <td style="padding-top: 16px; padding-bottom: 8px; padding-left: 0; padding-right: 0;">
-                    <h2 style="font-weight: 600; font-size: 14px; line-height: 100%; padding: 0 0 12px 0; color: #231f20; margin: 0;">
-                        Hi ${sales.Name},
-                    </h2>
-                </td>
-            </tr>
-
-            <tr style="padding-top: 8px; padding-bottom: 8px; padding-left: 0; padding-right: 0;">
-                <td>
-                    <p style="font-weight: 400; font-size: 14px; line-height: 150%; color: #616161; margin: 0; padding: 0;">
-                     A buyer just clicked the seller signup link and ready to convert.
-                    </p>
-                </td>
-            </tr>
             <tr>
               <td style="padding-top: 16px; padding-bottom: 0px; padding-left: 0; padding-right: 0;">
                 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                                    <tr>
+                    <td style="padding-top: 0px; padding-bottom: 0px; padding-left: 0; padding-right: 0;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td valign="top" style="padding: 0; vertical-align: top;">
+                            <h3 style="font-size: 15px; font-weight: 700; line-height: 150%; margin-top: 0; margin-bottom: 8px; margin-left: 0; margin-right: 0; padding: 0;">
+                              PRIORITY: MEDIUM  - RESPOND WITHIN 4 HOURS
+                            </h3>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
                   <tr>
                     <td style="padding-top: 0px; padding-bottom: 33px; padding-left: 0; padding-right: 0;">
                       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
@@ -57,32 +55,14 @@
                           </td>
                           <td valign="top" style=" padding: 0; vertical-align: top;">
                             <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 0px; padding-bottom: 0; padding-left: 0; padding-right: 0;">
-                               : ${Buyer.Name}
+                               : ${First Name-Last Name}
                             </p>
                           </td>
                         </tr>
                       </table>
                     </td>
                   </tr>
-                  <tr>
-                    <td style="padding-top: 0px; padding-bottom: 16px; padding-left: 0; padding-right: 0;">
-                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                        <tr>
-                          <td valign="top" style=" width: 30%; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 12px; vertical-align: top;">
-                           <h3 style="font-size: 14px; font-weight: 550; line-height: 150%; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding: 0;">
-                              Mobile 
-                            </h3>
-                          </td>
-                          <td valign="top" style=" padding: 0; vertical-align: top;">
-                            <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 0px; padding-bottom: 0; padding-left: 0; padding-right: 0;">
-                              : ${Buyer.Mobile} - Whatsapp Link
-                            </p>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <tr>
+                                    <tr>
                     <td style="padding-top: 0px; padding-bottom: 16px; padding-left: 0; padding-right: 0;">
                       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                         <tr>
@@ -93,7 +73,7 @@
                           </td>
                           <td valign="top" style=" padding: 0; vertical-align: top;">
                             <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 0px; padding-bottom: 0; padding-left: 0; padding-right: 0;">
-                              : ${Buyer.Email}
+                              : ${[Email Address}
                             </p>
                           </td>
                         </tr>
@@ -106,12 +86,120 @@
                         <tr>
                           <td valign="top" style=" width: 30%; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 12px; vertical-align: top;">
                            <h3 style="font-size: 14px; font-weight: 550; line-height: 150%; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding: 0;">
-                              City 
+                              Phone 
                             </h3>
                           </td>
                           <td valign="top" style=" padding: 0; vertical-align: top;">
                             <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 0px; padding-bottom: 0; padding-left: 0; padding-right: 0;">
-                              : ${Buyer.City}
+                              : ${Phone Number if available}
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td style="padding-top: 0px; padding-bottom: 16px; padding-left: 0; padding-right: 0;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td valign="top" style=" width: 30%; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 12px; vertical-align: top;">
+                           <h3 style="font-size: 14px; font-weight: 550; line-height: 150%; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding: 0;">
+                              Company 
+                            </h3>
+                          </td>
+                          <td valign="top" style=" padding: 0; vertical-align: top;">
+                            <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 0px; padding-bottom: 0; padding-left: 0; padding-right: 0;">
+                              : ${Company Name if available}
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                                    <tr>
+                    <td style="padding-top: 0px; padding-bottom: 16px; padding-left: 0; padding-right: 0;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td valign="top" style=" width: 30%; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 12px; vertical-align: top;">
+                           <h3 style="font-size: 14px; font-weight: 550; line-height: 150%; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding: 0;">
+                              Location 
+                            </h3>
+                          </td>
+                          <td valign="top" style=" padding: 0; vertical-align: top;">
+                            <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 0px; padding-bottom: 0; padding-left: 0; padding-right: 0;">
+                              : ${City/State}
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                                                      <tr>
+                    <td style="padding-top: 0px; padding-bottom: 16px; padding-left: 0; padding-right: 0;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td valign="top" style=" width: 30%; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 12px; vertical-align: top;">
+                           <h3 style="font-size: 14px; font-weight: 550; line-height: 150%; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding: 0;">
+                              Campaign Source 
+                            </h3>
+                          </td>
+                          <td valign="top" style=" padding: 0; vertical-align: top;">
+                            <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 0px; padding-bottom: 0; padding-left: 0; padding-right: 0;">
+                              : ${Campaign Name} - Email
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                    <tr>
+                    <td style="padding-top: 0px; padding-bottom: 16px; padding-left: 0; padding-right: 0;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td valign="top" style=" width: 30%; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 12px; vertical-align: top;">
+                           <h3 style="font-size: 14px; font-weight: 550; line-height: 150%; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding: 0;">
+                             CTA Clicked: 
+                            </h3>
+                          </td>
+                          <td valign="top" style=" padding: 0; vertical-align: top;">
+                            <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 0px; padding-bottom: 0; padding-left: 0; padding-right: 0;">
+                              : ${Button Text}
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                                      <tr>
+                    <td style="padding-top: 0px; padding-bottom: 16px; padding-left: 0; padding-right: 0;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td valign="top" style=" width: 30%; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 12px; vertical-align: top;">
+                           <h3 style="font-size: 14px; font-weight: 550; line-height: 150%; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding: 0;">
+                              Click Time
+                            </h3>
+                          </td>
+                          <td valign="top" style=" padding: 0; vertical-align: top;">
+                            <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 0px; padding-bottom: 0; padding-left: 0; padding-right: 0;">
+                              : ${Date & Time}
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                                      <tr>
+                    <td style="padding-top: 0px; padding-bottom: 16px; padding-left: 0; padding-right: 0;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td valign="top" style=" width: 30%; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 12px; vertical-align: top;">
+                           <h3 style="font-size: 14px; font-weight: 550; line-height: 150%; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding: 0;">
+                              Time to Convert
+                            </h3>
+                          </td>
+                          <td valign="top" style=" padding: 0; vertical-align: top;">
+                            <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 0px; padding-bottom: 0; padding-left: 0; padding-right: 0;">
+                              : ${Minutes from click to signup}
                             </p>
                           </td>
                         </tr>
@@ -125,115 +213,27 @@
                     </td>
                   </tr>
                                     <tr>
-                    <td style="padding-top: 0px; padding-bottom: 33px; padding-left: 0; padding-right: 0;">
-                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                        <tr>
-                         <td valign="top" style="padding: 10px; vertical-align: top; background-color: #fafafa;">
-                            <h3 style="font-size: 16px; font-weight: 700; line-height: 150%; margin-top: 0; margin-bottom: 8px; margin-left: 0; margin-right: 0; padding: 0;">
-                             Their Recent Activity:
-                            </h3>
-                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                  <tr>
-                    <td style="padding-top: 0px; padding-bottom: 16px; padding-left: 0; padding-right: 0;">
-                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                        <tr>
-                          <td valign="top" style=" width: 40%; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 12px; vertical-align: top;">
-                           <h3 style="font-size: 14px; font-weight: 550; line-height: 150%; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding: 0;">
-                              Submitted RFQ to 
-                            </h3>
-                          </td>
-                          <td valign="top" style=" padding: 0; vertical-align: top;">
-                            <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 0px; padding-bottom: 0; padding-left: 0; padding-right: 0;">
-                               : ${Seller.Name}
-                            </p>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td style="padding-top: 0px; padding-bottom: 16px; padding-left: 0; padding-right: 0;">
-                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                        <tr>
-                          <td valign="top" style=" width: 40%; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 12px; vertical-align: top;">
-                           <h3 style="font-size: 14px; font-weight: 550; line-height: 150%; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding: 0;">
-                              Product interest 
-                            </h3>
-                          </td>
-                          <td valign="top" style=" padding: 0; vertical-align: top;">
-                            <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 0px; padding-bottom: 0; padding-left: 0; padding-right: 0;">
-                              :  ${Product.Name}
-                            </p>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td style="padding-top: 0px; padding-bottom: 16px; padding-left: 0; padding-right: 0;">
-                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                        <tr>
-                          <td valign="top" style=" width: 40%; padding-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 12px; vertical-align: top;">
-                           <h3 style="font-size: 14px; font-weight: 550; line-height: 150%; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding: 0;">
-                              Clicked seller CTA on 
-                            </h3>
-                          </td>
-                          <td valign="top" style=" padding: 0; vertical-align: top;">
-                            <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 0px; padding-bottom: 0; padding-left: 0; padding-right: 0;">
-                              :  ${Date} at ${Time}
-                            </p>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                </table>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td style="padding-top: 0px; padding-bottom: 33px; padding-left: 0; padding-right: 0;">
+                    <td style="padding-top: 0px; padding-bottom: 20px; padding-left: 0; padding-right: 0;">
                       <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                         <tr>
                           <td valign="top" style="padding: 0; vertical-align: top;">
                             <h3 style="font-size: 14px; font-weight: 700; line-height: 150%; margin-top: 0; margin-bottom: 8px; margin-left: 0; margin-right: 0; padding: 0;">
-                              Your Action Required:
+                              Profile Completion Status:
                             </h3>
                             <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 4px; padding-bottom: 8px; padding-left: 0; padding-right: 0;">
-                              <img src="https://images.pepagora.com/pep-emailers/assets/img/verify.jpg" alt="Green tick" width="16px" height="16px" style="display: inline-block; vertical-align: middle; margin-right: 6px; border: 0;"> <span style="vertical-align: middle;">Assign this lead to your pre-sales team within 1 hour</span>
+                              <img src="https://images.pepagora.com/pep-emailers/assets/img/verify.jpg" alt="Green tick" width="16px" height="16px" style="display: inline-block; vertical-align: middle; margin-right: 6px; border: 0;"> <span style="vertical-align: middle;"> Basic Info: Complete</span>
                             </p>
                             <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 4px; padding-bottom: 8px; padding-left: 0; padding-right: 0;">
-                              <img src="https://images.pepagora.com/pep-emailers/assets/img/verify.jpg" alt="Green tick" width="16px" height="16px" style="display: inline-block; vertical-align: middle; margin-right: 6px; border: 0;"> <span style="vertical-align: middle;">Ensure team calls the lead within 4 hours</span>
+                              <img src="https://images.pepagora.com/pep-emailers/assets/img/verify.jpg" alt="Green tick" width="16px" height="16px" style="display: inline-block; vertical-align: middle; margin-right: 6px; border: 0;"> <span style="vertical-align: middle;">Products Added: [Number] / Minimum 3 needed</span>
                             </p>
                             <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 4px; padding-bottom: 8px; padding-left: 0; padding-right: 0;">
-                              <img src="https://images.pepagora.com/pep-emailers/assets/img/verify.jpg" alt="Green tick" width="16px" height="16px" style="display: inline-block; vertical-align: middle; margin-right: 6px; border: 0;"> <span style="vertical-align: middle;">Qualify the lead and update status</span>
-                            </p>
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td style="padding-top: 0px; padding-bottom: 33px; padding-left: 0; padding-right: 0;">
-                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
-                        <tr>
-                          <td valign="top" style="padding: 0; vertical-align: top;">
-                            <h3 style="font-size: 14px; font-weight: 700; line-height: 150%; margin-top: 0; margin-bottom: 8px; margin-left: 0; margin-right: 0; padding: 0;">
-                              Lead Status Options:
-                            </h3>
-                            <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 4px; padding-bottom: 8px; padding-left: 0; padding-right: 0;">
-                              <img src="https://images.pepagora.com/pep-emailers/assets/img/verify.jpg" alt="Green tick" width="16px" height="16px" style="display: inline-block; vertical-align: middle; margin-right: 6px; border: 0;"> <span style="vertical-align: middle;">Qualified (move forward with onboarding)</span>
-                            </p>
-                                   <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 4px; padding-bottom: 8px; padding-left: 0; padding-right: 0;">
-                              <img src="https://images.pepagora.com/pep-emailers/assets/img/verify.jpg" alt="Green tick" width="16px" height="16px" style="display: inline-block; vertical-align: middle; margin-right: 6px; border: 0;"> <span style="vertical-align: middle;">Not Qualified (still in communication)</span>
+                              <img src="https://images.pepagora.com/pep-emailers/assets/img/verify.jpg" alt="Green tick" width="16px" height="16px" style="display: inline-block; vertical-align: middle; margin-right: 6px; border: 0;"> <span style="vertical-align: middle;">Documents Uploaded: [Yes/No]</span>
                             </p>
                             <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 4px; padding-bottom: 8px; padding-left: 0; padding-right: 0;">
-                              <img src="https://images.pepagora.com/pep-emailers/assets/img/verify.jpg" alt="Green tick" width="16px" height="16px" style="display: inline-block; vertical-align: middle; margin-right: 6px; border: 0;"> <span style="vertical-align: middle;">Closed_Won (paid onboarding completed)</span>
+                              <img src="https://images.pepagora.com/pep-emailers/assets/img/verify.jpg" alt="Green tick" width="16px" height="16px" style="display: inline-block; vertical-align: middle; margin-right: 6px; border: 0;"> <span style="vertical-align: middle;">Verification Status: [Pending/In Progress/Complete]</span>
                             </p>
-                            <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 4px; padding-bottom: 8px; padding-left: 0; padding-right: 0;">
-                              <img src="https://images.pepagora.com/pep-emailers/assets/img/verify.jpg" alt="Green tick" width="16px" height="16px" style="display: inline-block; vertical-align: middle; margin-right: 6px; border: 0;"> <span style="vertical-align: middle;">Closed_Lost (send to free onboarding team)</span>
+                            <p style="font-size: 14px; font-weight: 600; line-height: 150%; color: #000000; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 4px; padding-bottom: 8px; padding-left: 0; padding-right: 0;">
+                              <img src="https://images.pepagora.com/pep-emailers/assets/img/verify.jpg" alt="Green tick" width="16px" height="16px" style="display: inline-block; vertical-align: middle; margin-right: 6px; border: 0;"> <span style="vertical-align: middle;">Overall Completion: [XX%] </span>
                             </p>
                           </td>
                         </tr>
@@ -243,29 +243,46 @@
                 </table>
               </td>
             </tr>
+                <tr>
+                    <td style="padding-top: 0px; padding-bottom: 0px; padding-left: 0; padding-right: 0;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td valign="top" style="padding: 0; vertical-align: top;">
+                            <h3 style="font-size: 14px; font-weight: 700; line-height: 150%; margin-top: 0; margin-bottom: 8px; margin-left: 0; margin-right: 0; padding: 0;">
+                              IMMEDIATE ACTION REQUIRED:
+                            </h3>
+                          </td>
+                        </tr>
+                                                            <tr>
+                    <td style="padding-top: 0px; padding-bottom: 20px; padding-left: 0; padding-right: 0;">
+                      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td valign="top" style="padding: 0; vertical-align: top;">
+                            <h3 style="font-size: 14px; font-weight: 700; line-height: 150%; margin-top: 0; margin-bottom: 8px; margin-left: 0; margin-right: 0; padding: 0;">
+                             1. Call within 4 hours to:
+                            </h3>
+                            <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 4px; padding-bottom: 8px; padding-left: 0; padding-right: 0;">
+                              <img src="https://images.pepagora.com/pep-emailers/assets/img/verify.jpg" alt="Green tick" width="16px" height="16px" style="display: inline-block; vertical-align: middle; margin-right: 6px; border: 0;"> <span style="vertical-align: middle;">Welcome them to Pepagora</span>
+                            </p>
+                            <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 4px; padding-bottom: 8px; padding-left: 0; padding-right: 0;">
+                              <img src="https://images.pepagora.com/pep-emailers/assets/img/verify.jpg" alt="Green tick" width="16px" height="16px" style="display: inline-block; vertical-align: middle; margin-right: 6px; border: 0;"> <span style="vertical-align: middle;">Offer profile completion assistance</span>
+                            </p>
+                            <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 4px; padding-bottom: 8px; padding-left: 0; padding-right: 0;">
+                              <img src="https://images.pepagora.com/pep-emailers/assets/img/verify.jpg" alt="Green tick" width="16px" height="16px" style="display: inline-block; vertical-align: middle; margin-right: 6px; border: 0;"> <span style="vertical-align: middle;">Guide through verification process</span>
+                            </p>
+                            <p style="font-size: 14px; font-weight: 400; line-height: 150%; color: #616161; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 4px; padding-bottom: 8px; padding-left: 0; padding-right: 0;">
+                              <img src="https://images.pepagora.com/pep-emailers/assets/img/verify.jpg" alt="Green tick" width="16px" height="16px" style="display: inline-block; vertical-align: middle; margin-right: 6px; border: 0;"> <span style="vertical-align: middle;">Help add first 3-5 products</span>
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                      </table>
+                    </td>
+                  </tr>
             <tr>
-              <td style="padding-top: 0px; padding-bottom: 0px; padding-left: 0; padding-right: 0;">
-                <h2 style="margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 0; padding-bottom: 16px; padding-left: 0; padding-right: 0; font-size: 14px; font-weight: 500; line-height: 150%;">
-                    <span style="font-weight: 700;">Important:</span>  This is a warm lead. Quick action will improve conversion.
-                </h2>
-              </td>
-            </tr>
-            <tr>
-              <td style="padding-top: 0px; padding-bottom: 0px; padding-left: 0; padding-right: 0;">
-                <h2 style="margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 0; padding-bottom: 16px; padding-left: 0; padding-right: 0; font-size: 14px; font-weight: 500; line-height: 150%;">
-                   <span style="font-weight: 700;">Ticket ID:</span> ${Ticket.ID} <span style="font-weight: 700;">Lead ID:</span> ${Lead.ID}
-                </h2>
-              </td>
-            </tr>
-            <tr>
-              <td style="padding-top: 0px; padding-bottom: 0px; padding-left: 0; padding-right: 0;">
-                <h2 style="margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 0; padding-bottom: 16px; padding-left: 0; padding-right: 0; font-size: 14px; font-weight: 500; line-height: 150%;">
-                  Please update the ticket status after assignment.
-                </h2>
-              </td>
-            </tr>
-            <tr>
-              <td style="padding-top: 4px; padding-bottom: 0px; padding-right: 5px;">
+              <td style="padding-top: 10px; padding-bottom: 0px; padding-left: 0px; padding-right: 5px;">
                 <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0">
                   <tr>
                     <td valign="top" style="padding: 0; vertical-align: top;">
@@ -273,7 +290,7 @@
                         Thanks, 
                       </p>
                       <p style="font-size: 14px; font-weight: 400; line-height: 140%; margin-top: 0; margin-bottom: 0; margin-left: 0; margin-right: 0; padding-top: 4px; padding-bottom: 0; padding-left: 0; padding-right: 0;">
-                        Pepagora Sales Ops
+                        Pepagora System
                       </p>
                     </td>
                   </tr>
